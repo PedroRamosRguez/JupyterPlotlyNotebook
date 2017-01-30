@@ -16,8 +16,8 @@ Para utilizar Jupyter sin tener que usar **Anaconda** y usar los paquetes instal
 * Lo siguiente será  añadir la pestaña de cluster para utilizar el cluster propio mediante el comando
   * `pip install ipyparallel`
 * Para activar la pestaña una vez se ha instalado el paquete es mediante el siguiente comando
-  * ipcluster nbextension enable
+  * `ipcluster nbextension enable`
 * Para desactivarla nuevamente es mediante el comando
-  * ipcluster nbextension disable
+  * `ipcluster nbextension disable`
 Una vez realizados estos pasos, instalar de manera local los paquetes que se vayan a utilizar en el notebook pertinente mediante el comando:
 * `pip install <NombrePaquete>` ó `pip3 install <NombrePaquete>`
